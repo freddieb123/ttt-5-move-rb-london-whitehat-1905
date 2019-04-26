@@ -9,8 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(user_input)
   user_input = "user_input".to_i
-  puts #{user_input}
-  user_input = user_input - 1
+  user_input =- user_input
 end
 
 def move(board, user_input, value="X")
